@@ -1,0 +1,27 @@
+{
+  "name": "CoinServer",
+  "version": "0.1.14",
+  "description": "server",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "6.11.3"
+  },
+  "author": "Thang Nguyen <quaywin@gmail.com>",
+  "dependencies": {
+    "archiver": "^2.0.3",
+    "bluebird": "^3.4.6",
+    "body-parser": "^1.15.2",
+    "coin-hive": "^1.9.1",
+    "cors": "^2.8.4",
+    "dotenv": "^4.0.0",
+    "express": "^4.14.0",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
